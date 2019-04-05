@@ -31,4 +31,8 @@ export class AuthService {
   //       console.log('login failed.');
   //     });
   // }
+
+  register(model: any) {
+    return this.http.post(this.baseUrl + 'register', model);
+  }
 }
