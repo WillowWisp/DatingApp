@@ -20,4 +20,15 @@ export class AuthService {
       );
   }
 
+  // login(model: any) {
+  //   return this.http.post(this.baseUrl + 'login', model)
+  //     .subscribe((response: any) => {
+  //       if (response) {
+  //         localStorage.setItem('token', response.token);
+  //       }
+  //       console.log('login successful.');
+  //     }, err => {
+  //       console.log('login failed.');
+  //     });
+  // }
 }
